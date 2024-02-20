@@ -8,7 +8,7 @@ public class ClimateControl {
 	}
 	
 	public void checkTemperature() {
-		System.out.print("Current temp is" + sensor.getTemperature());
+		System.out.print("Current temp is " + String.format("%.2f", sensor.getTemperature()) );
 	}
 
 }
